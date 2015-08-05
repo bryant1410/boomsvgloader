@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BoomSvgLoader</title>
+  <title>BoomSVGLoader</title>
   <meta name="keywords" content="svg, svg icons, svg sprite, ajax, sprite loader, front-end development.">
-  <meta name="description" content="BoomSvgLoader is a simple AJAX solution for your SVG sprite.">
+  <meta name="description" content="BoomSVGLoader is a simple AJAX solution for your SVG sprite.">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 	<div class="container">
     <br><br>
     <div class="jumbotron">
-      <h1>BoomSvgLoader <svg class="icon text-danger"><use xlink:href="#heart"/></svg> <svg class="icon text-primary"><use xlink:href="#heart"/></svg> <svg class="icon text-success"><use xlink:href="#heart"/></svg></h1>
+      <h1>BoomSVGLoader <svg class="icon text-danger"><use xlink:href="#heart"/></svg> <svg class="icon text-primary"><use xlink:href="#heart"/></svg> <svg class="icon text-success"><use xlink:href="#heart"/></svg></h1>
       <p>AJAX solution for your SVG sprite. This plugin simply loads your compiled svg sprite into the page immediately after the opening <code>&lt;body&gt;</code> tag.</p>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Github Repo</a></p>
     </div>
@@ -39,13 +39,11 @@
       <svg class="icon"><use xlink:href="#chevron-left"/></svg>
       <svg class="icon"><use xlink:href="#chevron-right"/></svg>
     </div>
-    
+
   </div>
   <script src="js/boomsvgloader.js"></script>
   <script>
-
-
-    document.addEventListener("DOMContentLoaded", function(event) { 
+    document.addEventListener("DOMContentLoaded", function(event) {
       boomsvgloader.load('svg/sprite.svg');
     });
   </script>

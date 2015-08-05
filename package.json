@@ -1,7 +1,7 @@
 {
   "name": "boomsvgloader",
-  "title": "BoomSvgLoader",
-  "description": "BoomSvgLoader is a simple AJAX solution for your SVG sprite.",
+  "title": "BoomSVGLoader",
+  "description": "BoomSVGLoader is a simple AJAX solution for your SVG sprite.",
   "version": "0.0.1",
   "keywords": [
     "boomsvgloader",
@@ -32,14 +32,14 @@
     }
   ],
   "devDependencies": {
-    "browser-sync": "^2.8.0",
+    "browser-sync": "2.8.2",
     "gulp": "3.9.0",
     "gulp-duration": "0.0.0",
-    "gulp-gh-pages": "0.4.0",
+    "gulp-gh-pages": "0.5.2",
     "gulp-uglify": "1.2.0",
-    "merge-stream": "^0.1.6",
-    "gulp-header": "^1.2.2",
-    "gulp-rename": "^1.2.0"
+    "merge-stream": "0.1.8",
+    "gulp-header": "1.2.2",
+    "gulp-rename": "1.2.2"
   },
   "_npmUser": {
     "name": "mcraiganthony",

@@ -10,7 +10,6 @@ var gulp         = require('gulp'),
     rename       = require("gulp-rename"),
     uglify       = require('gulp-uglify');
 
-
 var banner = "/*! <%= pkg.title %> <%= pkg.version %> | <%= pkg.homepage %> | (c) 2015 BoomTown | MIT License */\n";
 
 
@@ -24,6 +23,7 @@ var paths =  {
     "dist": "dist/js/"
   }
 };
+
 
 // Javascript
 gulp.task('js', function() {
@@ -68,12 +68,3 @@ gulp.task('default', ['js']);
 gulp.task('server', ['default', 'watch', 'browser-sync'], function () {
     gulp.watch([paths.html.src], reload);
 });
-
-
-
-
-
-
-
-
-
