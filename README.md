@@ -1,6 +1,6 @@
 ##BoomSvgLoader
 
-BoomSvgLoader is an Ajaxing solution for your SVG sprite.
+BoomSvgLoader is an AJAX solutuion for your SVG sprite.
 
 
 

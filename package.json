@@ -1,0 +1,48 @@
+{
+  "name": "boomsvgloader",
+  "title": "BoomSvgLoader",
+  "description": "BoomSvgLoader is a simple AJAX solution for your SVG sprite.",
+  "version": "0.0.1",
+  "keywords": [
+    "boomsvgloader",
+    "svg",
+    "sprite",
+    "loader",
+    "ajax"
+  ],
+  "homepage": "http://boomtownroi.github.io/boomsvgloader/",
+  "author": {
+    "name": "BoomTown",
+    "email": "info@boomtownroi.com",
+    "url": "http://boomtownroi.com"
+  },
+  "files": [
+    "README.md",
+    "dist/js/boomsvgloader.js"
+  ],
+  "main": "dist/js/boomsvgloader.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boomtownroi/boomsvgloader"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/BoomTownROI/boomsvgloader/blob/master/LICENSE.md"
+    }
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "3.9.0",
+    "gulp-duration": "0.0.0",
+    "gulp-gh-pages": "0.4.0",
+    "gulp-uglify": "1.2.0",
+    "merge-stream": "^0.1.6",
+    "gulp-header": "^1.2.2",
+    "gulp-rename": "^1.2.0"
+  },
+  "_npmUser": {
+    "name": "mcraiganthony",
+    "email": "mcraiganthony@gmail.com"
+  }
+}
