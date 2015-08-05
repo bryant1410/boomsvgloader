@@ -12,7 +12,7 @@
   }
 }(this, function() {
   'use strict';
-  function loadSvg(url) {
+  function load(url) {
     var ajax = new XMLHttpRequest();
     ajax.open("GET", url, true);
     ajax.send();
@@ -24,6 +24,6 @@
     }
   }
   return {
-    loadSvg: loadSvg
+    load: load
   };
 }));
