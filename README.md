@@ -19,17 +19,17 @@ There's a few options to get up and running with BoomSVGLoader:
 
 ## Usage
 
-1) BoomSVGLoader JS files are in the [dist/](https://github.com/boomtownroi/boomsvgloader/tree/master/dist) folder. Either add it to your script bundle build process or load it directly in the page.
+1. BoomSVGLoader JS files are in the [dist/](https://github.com/boomtownroi/boomsvgloader/tree/master/dist) folder. Either add it to your script bundle build process or load it directly in the page.
 
-	<script src='js/boomsvgloader.min.js'></script>
+	`<script src='js/boomsvgloader.min.js'></script>`
 
-2) Call BoomSVGLoader's load function with the path to your SVG sprite.
+1. Call BoomSVGLoader's load function with the path to your SVG sprite.
 
-	boomsvgloader.load('/path/to/your/sprite.svg');
+	`boomsvgloader.load('/path/to/your/sprite.svg')`
 
-3) Use your SVGs! The name after the # should match a symbol ID inside of your SVG sprite.
+1. Use your SVGs! The name after the # should match a symbol ID inside of your SVG sprite.
 
-	<svg><use xlink:href="#heart"/></svg>
+	`<svg><use xlink:href="#heart"/></svg>`
 
 
 ## Versioning
