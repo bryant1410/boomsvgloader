@@ -17,7 +17,7 @@
     ajax.send();
     ajax.onload = function(e) {
       var div = document.createElement("div");
-      div.style.cssText = 'display: none;';
+      div.style.cssText = 'border: 0; clip: rect(0 0 0 0); height: 0; overflow: hidden; padding: 0; position: absolute; width: 0;';
       div.innerHTML = ajax.responseText;
       document.body.insertBefore(div, document.body.childNodes[0]);
     };
