@@ -18,12 +18,12 @@
   },
   "files": [
     "README.md",
-    "dist/js/boomsvgloader.js"
+    "dist/js/"
   ],
   "main": "dist/js/boomsvgloader.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/boomtownroi/boomsvgloader"
+    "url": "https://github.com/BoomTownROI/boomsvgloader"
   },
   "licenses": [
     {
