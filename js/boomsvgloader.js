@@ -1,4 +1,4 @@
-/*! BoomSvgLoader 0.0.1 | http://boomtownroi.github.io/boomsvgloader/ | (c) 2015 BoomTown | MIT License */
+/*! BoomSVGLoader 0.0.1 | http://boomtownroi.github.io/boomsvgloader/ | (c) 2015 BoomTown | MIT License */
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD
@@ -21,7 +21,7 @@
       div.style.cssText = 'display: none;';
       div.innerHTML = ajax.responseText;
       document.body.insertBefore(div, document.body.childNodes[0]);
-    }
+    };
   }
   return {
     load: load
