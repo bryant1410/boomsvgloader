@@ -61,8 +61,16 @@ gulp.task('browser-sync', function() {
 });
 
 
+// Website
+gulp.task('website', function () {
+  return gulp.src('./dist/**/*')
+    .pipe(ghpages());
+});
+
+
 // Gulp Default
 gulp.task('default', ['js']);
+
 
 // Gulp Server
 gulp.task('server', ['default', 'watch', 'browser-sync'], function () {
