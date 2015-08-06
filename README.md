@@ -2,7 +2,7 @@
 
 BoomSVGLoader is an AJAX solution for your SVG sprite.
 
-This plugin simply loads your compiled SVG sprite into the page immediately after the opening <code>&lt;body&gt;</code> tag. The SVG sprite is wrapped in a <code>&lt;div&gt;</code> with the display set to 'none'.
+This plugin simply loads your compiled SVG sprite into the page immediately after the opening <code>&lt;body&gt;</code> tag. The SVG sprite is wrapped in a <code>&lt;div&gt;</code> with the display set to 'none'. Original technique explained on [CSS Tricks](https://css-tricks.com/ajaxing-svg-sprite/).
 
 [Simple Demo](http://boomtownroi.github.io/boomsvgloader/)
 
