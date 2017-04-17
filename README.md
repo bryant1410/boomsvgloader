@@ -1,4 +1,4 @@
-#BoomSVGLoader
+# BoomSVGLoader
 
 BoomSVGLoader is an AJAX solution for your SVG sprite.
 
